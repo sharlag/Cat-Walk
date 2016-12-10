@@ -28,20 +28,19 @@
         </ul>
       </header>
       <section>
-        <div class="highlight highlight-source-shell"><pre>  <span class="pl-k">&lt;</span>img style=<span class="pl-s"><span class="pl-pds">"</span>position:absolute;<span class="pl-pds">"</span></span> src=<span class="pl-s"><span class="pl-pds">"</span>http://www.anniemation.com/clip_art/images/cat-walk.gif<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
- <span class="pl-k">&lt;</span>script<span class="pl-k">&gt;</span>
+        <div class="highlight highlight-source-shell"><pre><span class="pl-k">&lt;</span>img style=<span class="pl-s"><span class="pl-pds">"</span>position:absolute;<span class="pl-pds">"</span></span> src=<span class="pl-s"><span class="pl-pds">"</span>cat-walk.gif<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+
+<span class="pl-k">&lt;</span>script<span class="pl-k">&gt;</span>
   var img = document.getElementsByTagName(<span class="pl-s"><span class="pl-pds">'</span>img<span class="pl-pds">'</span></span>)[0]<span class="pl-k">;</span>
   img.style.postion = <span class="pl-s"><span class="pl-pds">'</span>absolute<span class="pl-pds">'</span></span><span class="pl-k">;</span>
   img.style.left = <span class="pl-s"><span class="pl-pds">'</span>0px<span class="pl-pds">'</span></span><span class="pl-k">;</span>
-  // img.style.top = <span class="pl-s"><span class="pl-pds">'</span>0px<span class="pl-pds">'</span></span><span class="pl-k">;</span>
 
   <span class="pl-k">function</span> <span class="pl-en">catWalk()</span> {
-    // console.log(parseInt(img.style.left))<span class="pl-k">;</span>
     img.style.left = parseInt(img.style.left) + 10 + <span class="pl-s"><span class="pl-pds">'</span>px<span class="pl-pds">'</span></span><span class="pl-k">;</span>
-    // img.style.top = parseInt(img.style.top) + 10 + <span class="pl-s"><span class="pl-pds">'</span>px<span class="pl-pds">'</span></span><span class="pl-k">;</span>
   }
+
   window.setInterval(catWalk, 50)<span class="pl-k">;</span>
- <span class="pl-k">&lt;</span>/script<span class="pl-k">&gt;</span></pre></div>
+<span class="pl-k">&lt;</span>/script<span class="pl-k">&gt;</span></pre></div>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
