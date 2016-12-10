@@ -3,7 +3,7 @@
 Using JavaScript to move an animated cat across the screen. 
 
 ```bash
-<img style="position:absolute;" src="catwalk.gif">
+<img style="position:absolute;" src="images/catwalk.gif">
 
 <script>
   var img = document.getElementsByTagName('img')[0];
