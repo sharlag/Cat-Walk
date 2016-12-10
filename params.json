@@ -1,6 +1,6 @@
 {
   "name": "Cat Walk",
-  "tagline": "Using JavaScript to move a cat across the screen.",
-  "body": "\r\n![Image of Yaktocat](https://sharlag.github.io/Cat-Walk/images/catwalk.gif)\r\nhttps://sharlag.github.io/Cat-Walk/\r\n\r\n@sharlag \r\n\r\n\r\n```javascript\r\n<img style=\"position:absolute;\" src=\"images/catwalk.gif\">\r\n\r\n<script>\r\n  var img = document.getElementsByTagName('img')[0];\r\n  img.style.postion = 'absolute';\r\n  img.style.left = '0px';\r\n\r\n  function catWalk() {\r\n    img.style.left = parseInt(img.style.left) + 10 + 'px';\r\n  }\r\n\r\n  window.setInterval(catWalk, 50);\r\n</script>\r\n```\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.\r\n",
+  "tagline": "Welcome! This code bit uses JavaScript to move a cat (an image) across the screen.",
+  "body": "![Image of Yaktocat](https://sharlag.github.io/Cat-Walk/images/catwalk.gif)\r\nhttps://sharlag.github.io/Cat-Walk/\r\n\r\n\r\n```javascript\r\n<img style=\"position:absolute;\" src=\"images/catwalk.gif\">\r\n\r\n<script>\r\n  var img = document.getElementsByTagName('img')[0];\r\n  img.style.postion = 'absolute';\r\n  img.style.left = '0px';\r\n\r\n  function catWalk() {\r\n    img.style.left = parseInt(img.style.left) + 10 + 'px';\r\n  }\r\n\r\n  window.setInterval(catWalk, 50);\r\n</script>\r\n```\r\n\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.\r\n@sharlag",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
